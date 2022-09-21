@@ -1,17 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header />
+  <!-- <About /> -->
+  <Habilidades />
+  <Contacto />
+  <Footer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
+import Contacto from "./components/Contacto.vue";
+import Habilidades from "./components/Habilidades.vue";
+// import About from "./components/About.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+  created() {
+    document.title = "Abel Heredia Bravo";
+  },
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    Footer,
+    Contacto,
+    Habilidades,
+    // About,
+  },
+};
 </script>
 
 <style>
@@ -21,6 +35,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
