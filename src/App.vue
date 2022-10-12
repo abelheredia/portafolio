@@ -1,7 +1,9 @@
 <template>
   <Header />
-  <!-- <About /> -->
+  <Init />
+  <About />
   <Habilidades />
+  <Portafolio />
   <Contacto />
   <Footer />
 </template>
@@ -11,7 +13,9 @@ import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Contacto from "./components/Contacto.vue";
 import Habilidades from "./components/Habilidades.vue";
-// import About from "./components/About.vue";
+import About from "./components/About.vue";
+import Init from "./components/Init.vue";
+import Portafolio from "./components/Portafolio.vue";
 
 export default {
   name: "App",
@@ -23,7 +27,9 @@ export default {
     Footer,
     Contacto,
     Habilidades,
-    // About,
+    About,
+    Init,
+    Portafolio,
   },
 };
 </script>

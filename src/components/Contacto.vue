@@ -44,7 +44,7 @@ export default {};
   border-bottom: 2.5px solid #000000;
   background: transparent;
   outline: none;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -56,7 +56,6 @@ export default {};
 
 .contacto .formulario input::placeholder {
   color: #8b8b8b;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -75,7 +74,6 @@ export default {};
   border-bottom: 3px solid #000000;
   background: transparent;
   outline: none;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -87,7 +85,6 @@ export default {};
 
 .contacto .formulario textarea::placeholder {
   color: #8b8b8b;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
